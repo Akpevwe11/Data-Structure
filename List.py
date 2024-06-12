@@ -3,6 +3,15 @@ class Node:
         self.data = data
         self.next = None
 
+    def get_data(self):
+        return self.data
+
+    def set_data(self, data):
+        self.data = data
+
+    def get_next(self):
+        return self.next
+
     def __repr__(self):
         return f"Node({self.data})"
 
@@ -72,4 +81,4 @@ if __name__ == "__main__":
     linkedlist.append(3)
     linkedlist.append(4)
     linkedlist.append(5)
-    print("Initial list:", linkedlist.)
+    print("Initial list:", linkedlist)
