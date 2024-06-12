@@ -4,13 +4,20 @@ class Node:
         self.next = None
 
     def get_data(self):
+        """Return the data stored in the node"""
         return self.data
 
     def set_data(self, data):
+        """Set the data stored in the node"""
         self.data = data
 
     def get_next(self):
+        """Return the next node"""
         return self.next
+
+    def set_next(self, new_next):
+        """Set the next node"""
+        self.next = new_next
 
     def __repr__(self):
         return f"Node({self.data})"
