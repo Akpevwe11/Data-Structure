@@ -63,3 +63,13 @@ class LinkedList:
             prev_node = current
             current = next_node
         self.head = prev_node
+
+
+if __name__ == "__main__":
+    linkedlist = LinkedList()
+    linkedlist.append(1)
+    linkedlist.append(2)
+    linkedlist.append(3)
+    linkedlist.append(4)
+    linkedlist.append(5)
+    print("Initial list:", linkedlist.)
