@@ -44,6 +44,9 @@ class LinkedList:
             current = current.next
         current.next = Node(data)
 
+    def is_empty(self):
+        return self.head is None
+
     def prepend(self, data):
         new_head = Node(data)
         new_head.next = self.head
